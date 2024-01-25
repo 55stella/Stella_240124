@@ -12,7 +12,7 @@ public class DeviceCaps  extends TestBase {
 
     public static void InfinixHot8() {
         caps = new DesiredCapabilities();
-        String filePath =System.getProperty("user.dir") + "\\src\\test\\java\\Qa_App\\Resources\\QAtestbuild22ndJan.apk";
+        String filePath =System.getProperty("user.dir") + "\\src\\test\\java\\MobileAutomation\\Resources\\QAtestbuild22ndJan.apk";
         caps.setCapability(MobileCapabilityType.DEVICE_NAME, "Infinix HOT 8");
         caps.setCapability(MobileCapabilityType.PLATFORM_NAME, "Android");
         caps.setCapability(MobileCapabilityType.PLATFORM_VERSION, "9");

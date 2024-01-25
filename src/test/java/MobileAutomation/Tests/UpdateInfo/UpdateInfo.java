@@ -51,8 +51,6 @@ String testCategory ="Update Info";
         startTest(method.getName(), method.getAnnotation(Test.class).description(), testCategory);
         updateInfoPage.clickOkBtn();
         validateText(updateInfoPage.returnUpdatedFirstName(), testDataProp.getProperty("firstname"));
-
-
     }
     @Test(priority = 4, description = "Validate the First Name and Last Name field Shall not be less than 5 (five) Characters Each.")
     public void TC25_ValidateAllowedNameFieldCharacterLength(Method method){
